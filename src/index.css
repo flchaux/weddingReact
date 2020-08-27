@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'GreatVibes';
+  font-style: normal;
+  font-weight: 100;
+  src: local('GreatVibes'), url('./fonts/GreatVibes-Regular.otf');
+}
+@font-face {
+  font-family: 'CaviarDreams';
+  font-style: normal;
+  font-weight: 100;
+  src: local('CaviarDreams'), url('./fonts/CaviarDreams.ttf'); 
+}
+
+html
+{
+
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'CaviarDreams';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fefefc;
+}
+
+
+code {
+  /*font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+*/
+  }
+
